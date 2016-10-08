@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int my_strlen(char *s)
+size_t my_strlen(char *s)
 {
    char *p = s;
 
@@ -8,6 +8,7 @@ int my_strlen(char *s)
       ++p;
 
    return (p - s);
+   if else
 }
 
 int main(void)
